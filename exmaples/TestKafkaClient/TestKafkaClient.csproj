@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Confluent.Kafka" Version="1.1.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Niazza.KafkaMessaging\Niazza.KafkaMessaging.csproj" />
+    </ItemGroup>
+
+</Project>
