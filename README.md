@@ -134,7 +134,7 @@ class TestProducer
 - `RepeatScheduledStrategy` : you can schedule intervals if retries (by defalut is Fibonacci grown multiplicity for three days)
 - `RepeatTillSuccessStrategy` : 1000 attempts of tries with equal interval (5 seconds by default)
 
-Error topic is build of two parts `errors-` + `<name of consumer group>`. The prefix can be mofified.
+Error topic is built by two parts `errors-` + `<name of consumer group>`. The prefix can be mofified.
 
 ### Behaviors of handling
 
